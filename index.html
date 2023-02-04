@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Dad Jokes</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+</head>
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="column is-half is-offset-one-quarter">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                        <img src="https://images.unsplash.com/photo-1470277760377-4cf074a2f7bf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDV8fGJsYWNrJTIwZGFkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Placeholder image">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                        <div class="media-left">
+                            <figure class="image is-48x48">
+                            <img src="https://images.unsplash.com/photo-1567111089028-9abb29aa1102?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGZ1bm55fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Placeholder image">
+                            </figure>
+                        </div>
+                        <div class="media-content">
+                            <p class="title is-4">Daddy</p>
+                            <p class="subtitle is-6">@icanhazdadjoke</p>
+                        </div>
+                        </div>
+                        <div class="content">
+                            <p class="subtitle">Get exicting new jokes when you click the button</p>
+                            <div class="button is-danger card-footer-item is-large jokes"> New Jokes</div>
+                        </div>
+                        <div class="content" id="addJokes">
+                            <div class="card">
+                                <h3 class="card-content" id="newJoke"></h3>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="app.js"></script>  
+<script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>  
+</body>
+</html>
